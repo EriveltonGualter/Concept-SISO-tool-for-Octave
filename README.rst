@@ -22,4 +22,7 @@ In another m file or in the command window:
    
    $ rlocus_dyn(sys);
 
+References
+----------
 
+- https://wiki.octave.org/Interactive_plots
