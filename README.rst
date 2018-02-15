@@ -22,6 +22,8 @@ In another m file or in the command window:
    
    $ rlocus_dyn(sys);
 
+Illustration: https://youtu.be/VxosC6S3XK8
+
 References
 ----------
 
