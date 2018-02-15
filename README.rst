@@ -1,4 +1,4 @@
-Convept Idea for SISO tool on Octave
+Concept Idea for SISO tool on Octave
 ====================================
 
 This repository contains some code I am working on about the concept for sisotool on Octave.
@@ -26,3 +26,6 @@ References
 ----------
 
 - https://wiki.octave.org/Interactive_plots
+
+
+IT IS JUST A PRELIMINARY WORK TO PROOF THE CONCEPT
