@@ -431,7 +431,7 @@ function up_fig (hsrc, evt, olpol, olzer)
   x = get(gca, "xlim"); y = get(gca, "ylim");
   extents = [x y];
   
-  rlocus_simply(sys, extents);
+  rlocus_dyn(sys, extents);
     
 ##  olpol 
 ##  olzer = [olzer; olzer];
@@ -439,6 +439,6 @@ function up_fig (hsrc, evt, olpol, olzer)
 ##  
 ##  sys = zpk (olzer, olpol,[1]);
 ##  
-##  rlocus_simply(sys);
+##  rlocus_dyn(sys);
   
 endfunction
