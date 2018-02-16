@@ -8,7 +8,7 @@ pkg load control
 
 s = tf('s');
 
-## Examples:
+## Olter example of plants.
 ## sys = (s + 10)/(s*(s + 5)*(s + 15)*(s^2 + 25));
 ## sys = (s-1) / ( (s-3)*(s+4) )
 ## sys = 1/(s^2+2*s+5);
