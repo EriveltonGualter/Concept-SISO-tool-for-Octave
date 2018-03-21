@@ -1,0 +1,15 @@
+% Erivelton Gualter 
+% 03/20/2019
+
+clear all
+close all
+clc
+
+s = tf('s');
+
+SYS = 1 / (s*(s+2)*(s+5))
+
+subplot(211); rlocus(SYS)
+subplot(212); nyquist(SYS)
+
+f
