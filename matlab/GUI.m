@@ -64,7 +64,7 @@ handles.output = hObject;
 
 s = tf('s');
 
-SYS = 1 / (s*(s+2)*(s+5))
+SYS = 1 / (s*(s+2)*(s+5));
 
 rlocus(handles.axes1,SYS)
 guidata(hObject, handles);

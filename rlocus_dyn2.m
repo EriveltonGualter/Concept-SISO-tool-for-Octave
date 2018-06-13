@@ -279,12 +279,12 @@ function [rldata_r, k_break, rlpol, gvec, real_ax_pts] = rlocus_dyn2(sys, ax12, 
 ##    hplt = plot (args{:});                 # yes, line 288 is a duplicate of line 290 - needed for subplots
 ##    set (gcf,"visible","off");
     hplt = plot (ax12, args{:});
-    set (hplt(kk--), "markersize", 8, "linewidth", 4); 
+    set (hplt(kk--), "markersize", 8, "linewidth", 2); 
     if (! isempty (rlzer))
-      set (hplt(kk--), "markersize", 8, "linewidth", 4); 
+      set (hplt(kk--), "markersize", 8, "linewidth", 2); 
     endif
     for ii = 1:rows(rlpol)
-      set (hplt(kk--), "linewidth", 4);
+      set (hplt(kk--), "linewidth", 2);
     endfor
     legend ("boxon", 2);
     grid ("on");
